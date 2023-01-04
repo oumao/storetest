@@ -1,0 +1,17 @@
+{
+    "dev": {
+        "driver": "pg",
+        "host": "127.0.0.1",
+        "database": "bookshelf",
+        "user": "postgres",
+        "password": "password"
+    },
+    "test": {
+        "driver": "pg",
+        "host": "127.0.0.1",
+        "database": "bookshelf_test",
+        "user": "postgres",
+        "password": "password"
+    },
+    "sql-file": true
+}
